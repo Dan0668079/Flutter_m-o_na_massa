@@ -8,6 +8,7 @@ import 'package:flutter_primeiro_projeto2/pages/circle_avatar/cicle_avatar_page.
 import 'package:flutter_primeiro_projeto2/pages/colors/colors_page.dart';
 import 'package:flutter_primeiro_projeto2/pages/container/container_page.dart';
 import 'package:flutter_primeiro_projeto2/pages/dialogs/dialogs.page.dart';
+import 'package:flutter_primeiro_projeto2/pages/instagram/instagran_desafio_page.dart';
 import 'package:flutter_primeiro_projeto2/pages/material_banner/material_banner_page.dart.dart';
 import 'package:flutter_primeiro_projeto2/pages/media_query/media_query_page.dart';
 import 'package:flutter_primeiro_projeto2/pages/rows_columns/rows_column_page.dart';
@@ -68,6 +69,7 @@ class MyApp extends StatelessWidget {
         '/circleAvatar': (_) => const CircleAvatarPage(),
         '/colorsPage': (_) =>  const ColorsPage(),
         '/materialBanner': (_) => const MaterialBannerPage(),
+        '/instagramPage': (_) => const InstagranDesafioPage(),
       },
     );
   }
